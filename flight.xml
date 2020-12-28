@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<booking>
+  <section name="Spain">
+    <entree>
+      <name>William</name>
+      <departingDate>14-05-2021</departingDate>
+      <class>First Class</class>
+      <destination>Barcelona</destination>
+    </entree>
+
+    <entree>
+      <name>Cibeli</name>
+      <departingDate>05-01-2021</departingDate>
+      <class>Business Class</class>
+      <destination>Madrid</destination>
+    </entree>
+
+    <entree>
+      <name>Kamilla</name>
+      <departingDate>27-08-2021</departingDate>
+      <class>Economy Class</class>
+      <destination>Malaga</destination>
+    </entree>
+  </section>
+
+
+  <section name="England">
+    <entree>
+      <name>Jessica</name>
+      <departingDate>29-03-2021</departingDate>
+      <class>First Class</class>
+      <destination>Liverpool</destination>
+    </entree>
+
+    <entree>
+      <name>Adriano</name>
+      <departingDate>17-01-2021</departingDate>
+      <class>Business Class</class>
+      <destination>London</destination>
+    </entree>
+
+    <entree>
+      <name>Vinny</name>
+      <departingDate>06-012-2021</departingDate>
+      <class>Economy Class</class>
+      <destination>Manchester</destination>
+    </entree>
+  </section>
+
+
+  <section name="France">
+    <entree>
+      <name>Elias</name>
+      <departingDate>04-07-2021</departingDate>
+      <class>First Class</class>
+      <destination>Paris</destination>
+    </entree>
+
+    <entree>
+      <name>Joice</name>
+      <departingDate>02-01-2021</departingDate>
+      <class>Business Class</class>
+      <destination>Marselha</destination>
+    </entree>
+
+    <entree>
+      <name>Michelle</name>
+      <departingDate>20-010-2021</departingDate>
+      <class>Economy Class</class>
+      <destination>Lyon</destination>
+    </entree>
+  </section>
+</booking>
