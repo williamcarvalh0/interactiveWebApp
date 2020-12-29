@@ -1,10 +1,10 @@
 <?xml version="1.0" ?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
     <xsl:template match="/">
-        <table id="Flits" border="1" class="indent">
+        <table id="Flights" border="1" class="indent">
             <thead>
                 <tr>
-                    <th colspan="3">Will Flight Company</th>
+                    <th colspan="3">William Flight Company</th>
                 </tr>
                 <tr>
                     <th>Select</th>
@@ -18,25 +18,25 @@
                 <xsl:for-each select="/booking/section">
                     <tr>
                         <td colspan="3">
-                            <xsl:value-of select="@name" />
+                            <xsl:value-of select="@name"/>
                         </td>
                     </tr>
                     <xsl:for-each select="entree">
                         <tr id="{position()}">                          
                             <td align="center">
-                                <input name="item0" type="checkbox" />
+                                <input name="item0" type="checkbox"/>
                             </td>
                             <td>
-                                <xsl:value-of select="Passenger" />
+                                <xsl:value-of select="passenger"/>
                             </td>
                             <td align="right">
-                                <xsl:value-of select="Departing Date" />
+                                <xsl:value-of select="departingDate"/>
                             </td>
                             <td align="right">
-                                <xsl:value-of select="Class" />
+                                <xsl:value-of select="class"/>
                             </td>
                             <td align="right">
-                                <xsl:value-of select="Destination" />
+                                <xsl:value-of select="destination"/>
                             </td>                            
                         </tr>
                     </xsl:for-each>

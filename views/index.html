@@ -8,11 +8,11 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Paddy's Cafe</title>
+    <title>William Carvalho 2020447</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/PaddysCafe.css" rel="stylesheet">
+    <link href="css/flight.css" rel="stylesheet">
 
 </head>
 
@@ -21,7 +21,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
         <div class="container">
-            <a class="navbar-brand" href="#">Paddy's Cafe</a>
+            <a class="navbar-brand" href="#">William Flight Company</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -32,16 +32,7 @@
                         <a class="nav-link" href="#">Home
                             <span class="sr-only">(current)</span>
                         </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
+                    </li>                 
                 </ul>
             </div>
         </div>
@@ -51,63 +42,42 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h1 class="mt-5">Welcome to Paddy's Cafe</h1>
-                <p class="lead">Select your entrees from the menu below</p>
+                <h1 class="mt-5">Welcome to William Flight Company</h1>
+                <p class="lead">Choose your Destination</p>
             </div>
             <div id="results" class="col-lg-8 order-2 mb-5"></div>
             <div class="col-lg-4 order-1">
                 <form enctype="application/json" action="/post/json" method="post">
                     <div class="form-group">
                         <select class="form-control" name="sec_n">
-                            <option value="0">Side Dishes</option>
-                            <option value="1">Breakfast</option>
-                            <option value="2">Lunch</option>
-                            <option value="3">Dinner</option>
+                            <option value="0">England</option>
+                            <option value="1">France</option>
+                            <option value="2">Spain</option>
                         </select>
-                        <input class="form-control mt-3" type="text" name="item" placeholder="Item">
-                        <input class="form-control mt-3" type="text" name="price" placeholder="Price">
+                        <input class="form-control mt-3" type="text" name="passenger" placeholder="Passenger Name">
+                        <input class="form-control mt-3" type="date" name="departingDate" placeholder="Departing Date">
+                        <select class="form-control mt-3" name="class">
+                            <option value="First Class">First Class</option>
+                            <option value="Business Class">Business Class</option>
+                            <option value="Economy Class">Economy Class</option>
+                        </select>
+                        <input class="form-control mt-3" type="text" name="destination" placeholder="Destination Name">
                         <button type="submit" class="btn btn-primary btn-block mt-3">Submit</button>
                     </div>
                 </form>
                 <button id="delete" class="btn btn-danger btn-block mt-3">Delete</button>
-                <p class="text-muted text-center">To delete an entree, click the required row first</p>
-                <form>
-                    <div class="input-group">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text">&euro;</span>
-                        </div>
-                        <input type="text" class="form-control" aria-label="Total" name="txtBillAmt">
-                        <div class="input-group-append">
-                            <div class="input-group-text">
-                                <input type="checkbox" id="showVeg" aria-label="Checkbox for following text input">
-                            </div>
-                        </div>
-                        <input class="btn btn-block btn-secondary mt-2" type="button" name="btnCalcBill"
-                            value="Calculate Bill" id="calcBill">
-                    </div>
-                </form>
+                <p class="text-muted text-center">To delete an entree, click the required row first</p>               
             </div>
         </div>
     </div>
     <footer class="footer">
-        <div class="container text-center"><span class="text-muted">&copy; 2020</span></div>
+        <div class="container text-center"><span class="text-muted">&copy; 2020 William Carvalho</span></div>
     </footer>
     <!-- Bootstrap core JavaScript -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/table.js"></script>
-    <script src="js/PaddysCafe.js"></script>
-    <script>
-        window.addEventListener("load", function() {
-            document.forms[1].txtBillAmt.value = calculateBill('menuTable');
-            document.querySelector("#calcBill").addEventListener("click", function() {
-                document.forms[1].txtBillAmt.value = calculateBill('menuTable');
-            });
-            document.querySelector("#showVeg").addEventListener("click", function() {
-                highlightVegetarian('menuTable', this.checked);
-            });
-        });
-    </script>
+    <script src="js/flight.js"></script>   
 </body>
 
 </html>

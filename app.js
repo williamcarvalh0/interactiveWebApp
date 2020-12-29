@@ -62,7 +62,7 @@ router.post('/post/json', function (req, res) {
         xmlFileToJs('flight.xml', function (err, result) {
             if (err) throw (err);
             
-            result.booking.section[obj.sec_n].entree.push({'name': obj.name, 'departingDate': obj.departingDate, 'class': obj.class, 'destination': obj.destination});
+            result.booking.section[obj.sec_n].entree.push({'passenger': obj.passenger, 'departingDate': obj.departingDate, 'class': obj.class, 'destination': obj.destination});
 
             console.log(JSON.stringify(result, null, "  "));
 
