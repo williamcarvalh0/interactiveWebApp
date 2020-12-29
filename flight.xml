@@ -6,18 +6,21 @@
       <departingDate>2021-02-20</departingDate>
       <class>First Class</class>
       <destination>Liverpool</destination>
+      <price>89.99</price>
     </entree>
     <entree>
       <passenger>Adriano</passenger>
       <departingDate>2021-01-17</departingDate>
       <class>Business Class</class>
       <destination>London</destination>
+      <price>47.99</price>
     </entree>
     <entree>
       <passenger>Vinny</passenger>
       <departingDate>2021-01-17</departingDate>
       <class>Business Class</class>
       <destination>London</destination>
+      <price>47.99</price>
     </entree>
   </section>
   <section name="France">
@@ -26,18 +29,21 @@
       <departingDate>2021-04-07</departingDate>
       <class>First Class</class>
       <destination>Paris</destination>
+      <price>89.99</price>
     </entree>
     <entree>
       <passenger>Joice</passenger>
       <departingDate>2021-02-01</departingDate>
       <class>Business Class</class>
       <destination>Marselha</destination>
+      <price>47.99</price>
     </entree>
     <entree>
       <passenger>Michelle</passenger>
       <departingDate>2021-10-20</departingDate>
       <class>Economy Class</class>
       <destination>Lyon</destination>
+      <price>23.99</price>
     </entree>
   </section>
   <section name="Spain">
@@ -46,18 +52,27 @@
       <departingDate>2021-14-05</departingDate>
       <class>First Class</class>
       <destination>Barcelona</destination>
+      <price>89.99</price>
     </entree>
     <entree>
       <passenger>Cibeli</passenger>
       <departingDate>2020-12-31</departingDate>
       <class>First Class</class>
       <destination>Madrid</destination>
+      <price>89.99</price>
     </entree>
     <entree>
       <passenger>Kamilla</passenger>
       <departingDate>2021-02-31</departingDate>
       <class>Economy Class</class>
       <destination>Malaga</destination>
+      <price>23.99</price>
+    </entree>
+    <entree>
+      <passenger>kkkkkkkkk</passenger>
+      <departingDate>2020-12-19</departingDate>
+      <class/>
+      <destination>kkkkkkkkkk</destination>
     </entree>
   </section>
 </booking>

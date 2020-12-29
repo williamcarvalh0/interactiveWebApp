@@ -12,6 +12,7 @@
                     <th>Departing Date</th>
                     <th>Class</th>
                     <th>Destination</th>
+                    <th>Price €</th>
                 </tr>
             </thead>
             <tbody>
@@ -29,15 +30,18 @@
                             <td>
                                 <xsl:value-of select="passenger"/>
                             </td>
-                            <td align="right">
+                            <td align="center">
                                 <xsl:value-of select="departingDate"/>
                             </td>
-                            <td align="right">
+                            <td align="center">
                                 <xsl:value-of select="class"/>
                             </td>
-                            <td align="right">
+                            <td align="center">
                                 <xsl:value-of select="destination"/>
-                            </td>                            
+                            </td>  
+                            <td align="center">
+                                <xsl:value-of select="price"/>
+                            </td>                           
                         </tr>
                     </xsl:for-each>
                 </xsl:for-each>
