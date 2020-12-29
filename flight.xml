@@ -77,5 +77,11 @@
       <class>Economy Class</class>
       <destination>Malaga</destination>
     </entree>
+    <entree>
+      <passenger>Carlos</passenger>
+      <departingDate>2020-12-29</departingDate>
+      <class>Economy Class</class>
+      <destination>Madrid</destination>
+    </entree>
   </section>
 </booking>
