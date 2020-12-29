@@ -78,6 +78,17 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/table.js"></script>
     <script src="js/flight.js"></script>   
+    <script>
+        window.addEventListener("load", function() {
+            document.forms[1].txtBillAmt.value = calculateBill('flights');
+            document.querySelector("#calcBill").addEventListener("click", function() {
+                document.forms[1].txtBillAmt.value = calculateBill('flights');
+            });
+            document.querySelector("#showVeg").addEventListener("click", function() {
+                highlightVegetarian('flights', this.checked);
+            });
+        });
+    </script>
 </body>
 
 </html>

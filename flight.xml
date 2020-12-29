@@ -15,9 +15,9 @@
     </entree>
     <entree>
       <passenger>Vinny</passenger>
-      <departingDate>2021-12-01</departingDate>
-      <class>Economy Class</class>
-      <destination>Manchester</destination>
+      <departingDate>2021-01-17</departingDate>
+      <class>Business Class</class>
+      <destination>London</destination>
     </entree>
   </section>
   <section name="France">
@@ -39,24 +39,6 @@
       <class>Economy Class</class>
       <destination>Lyon</destination>
     </entree>
-    <entree>
-      <passenger>Carlos</passenger>
-      <departingDate>2021-01-09</departingDate>
-      <class>First Class</class>
-      <destination>Lyon</destination>
-    </entree>
-    <entree>
-      <passenger>Pedro</passenger>
-      <departingDate>2020-12-29</departingDate>
-      <class>First Class</class>
-      <destination>Paris</destination>
-    </entree>
-    <entree>
-      <passenger>Manuel</passenger>
-      <departingDate>2021-04-24</departingDate>
-      <class>First Class</class>
-      <destination>Lyon</destination>
-    </entree>
   </section>
   <section name="Spain">
     <entree>
@@ -67,21 +49,15 @@
     </entree>
     <entree>
       <passenger>Cibeli</passenger>
-      <departingDate>2021-01-05</departingDate>
-      <class>Business Class</class>
+      <departingDate>2020-12-31</departingDate>
+      <class>First Class</class>
       <destination>Madrid</destination>
     </entree>
     <entree>
       <passenger>Kamilla</passenger>
-      <departingDate>2021-08-27</departingDate>
+      <departingDate>2021-02-31</departingDate>
       <class>Economy Class</class>
       <destination>Malaga</destination>
-    </entree>
-    <entree>
-      <passenger>Carlos</passenger>
-      <departingDate>2020-12-29</departingDate>
-      <class>Economy Class</class>
-      <destination>Madrid</destination>
     </entree>
   </section>
 </booking>
