@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800');
 @import url('https://fonts.googleapis.com/css2?family=Hanalei+Fill&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic&display=swap');
+
 
 html {
   position: relative;
   min-height: 100%;
 }
-body {
-  margin: 0;
+body {  margin: 0;
   padding: 0;
   font-family: 'Open Sans', sans-serif;
   background-color: #eae7dc;
@@ -16,6 +18,11 @@ body {
     font-family: 'Hanalei Fill', cursive;
     font-size: 54px;
     color: white;
+}
+
+.titleCompany:hover {
+    transform: scale(1.25); 
+    cursor: pointer;
 }
 
 .nav-link {
@@ -40,6 +47,12 @@ body {
     overflow: hidden;
     box-shadow: 0 10px 10px rgba(0, 0, 0, .2) ;
     transition: .5s;
+    cursor: pointer;
+}
+
+.container h3 {
+    font-size: 60px;
+    font-family: 'Hanalei Fill', cursive;
 }
 
 .container .column:hover {
@@ -53,6 +66,7 @@ body {
 
 
 .title .fa {
+    padding: 0 0 25px;
     color: white;
     font-size: 60px;
 }
@@ -96,7 +110,7 @@ body {
     font-size: 30px;
 }
 
-.column a {
+.column .btnStyle {
     text-decoration: none;
     padding: 10px 40px;
     background: #e85a4f;
@@ -115,36 +129,46 @@ body {
     background: #e85a4f;
 }
 
+table {
+    background-color: #eae7dc;  
+}
 
+th {
+    font-family: 'Black Han Sans', sans-serif;
+    background: #838d8a;
+    text-align: center;
+}
 
-table, th, td {
-     border-collapse: collapse;
-     border: 1px solid black;
-     text-align: center;
+td {
+    font-family: 'Antic', sans-serif;
+    text-align: center;
 }
- table {
-     border-collapse: collapse;
-     width:100%;
+
+.card {
+    background: #d8c3a5;
+    font-size: 18px;
 }
- td, th {
-     border: 1px solid #ced4da;
-     padding: 0.5rem;
-     text-align: left;
+
+.card-body h5 {
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 60px;
+    text-align: center;
 }
- th {
-     font-weight: bold;
+
+.card-header {
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 20px;
+    
 }
-.selected {
-            background-color: #dc3545;
-            color: #FFF;
-}
+
 
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  /* Set the fixed height of the footer here */
   height: 60px;
-  line-height: 60px; /* Vertically center the text there */
+  line-height: 60px;
   background-color: #f5f5f5;
+  font-family: 'Antic', sans-serif;
+  font-size: 30px;
 }

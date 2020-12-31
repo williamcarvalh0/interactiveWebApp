@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <booking>
-  <section name="England">
+  <section name="ENGLAND">
     <entree>
       <passenger>Jessica</passenger>
       <departingDate>2021-02-20</departingDate>
@@ -22,8 +22,15 @@
       <destination>London</destination>
       <price>47.99</price>
     </entree>
+    <entree>
+      <passenger>Carlos</passenger>
+      <departingDate>2021-01-10</departingDate>
+      <class>Economy Class</class>
+      <destination>London</destination>
+      <price>23.99</price>
+    </entree>
   </section>
-  <section name="France">
+  <section name="FRANCE">
     <entree>
       <passenger>Elias</passenger>
       <departingDate>2021-04-07</departingDate>
@@ -45,8 +52,15 @@
       <destination>Lyon</destination>
       <price>23.99</price>
     </entree>
+    <entree>
+      <passenger>Jose</passenger>
+      <departingDate>2020-12-31</departingDate>
+      <class>First Class</class>
+      <destination>Lyon</destination>
+      <price>89.99</price>
+    </entree>
   </section>
-  <section name="Spain">
+  <section name="SPAIN">
     <entree>
       <passenger>William</passenger>
       <departingDate>2021-14-05</departingDate>
@@ -69,10 +83,18 @@
       <price>23.99</price>
     </entree>
     <entree>
-      <passenger>kkkkkkkkk</passenger>
-      <departingDate>2020-12-19</departingDate>
-      <class/>
-      <destination>kkkkkkkkkk</destination>
+      <passenger>Manuel</passenger>
+      <departingDate>2021-04-23</departingDate>
+      <class>First Class</class>
+      <destination>Barcelona</destination>
+      <price>89.99</price>
+    </entree>
+    <entree>
+      <passenger>Mozao</passenger>
+      <departingDate>2021-01-08</departingDate>
+      <class>First Class</class>
+      <destination>Madrid</destination>
+      <price>89.99</price>
     </entree>
   </section>
 </booking>

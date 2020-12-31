@@ -21,7 +21,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
         <div class="container">
-            <h1 class="titleCompany">William's Flight Company</h1>
+            <h1 class="titleCompany">William's Airline</h1>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -41,40 +41,23 @@
         </div>
     </nav>
 
-    <!-- Page Content -->
-    <div class="container">             
-        <div class="col-lg-12 text-center">
-            <h1 class="mt-5">Welcome to William's Flight Company</h1>
-            <button id="delete" class="btn btn-danger btn-block mt-3">Delete</button>
-            <p class="text-muted text-center">To delete an entree, click the required row first</p> 
-        </div>
-           
-        <h2 class="lead">Booking List</h2>
-        <div id="results" class="col-lg-8 order-2 mb-5"></div>
-        <div class="col-lg-4 order-1"></div>     
-    </div>
+
+    <!-- Page Content -->   
+    <div id="results"></div>
+
 
 
     <!-- Footer Content -->
     <footer class="footer">
         <div class="container text-center"><span class="text-muted">&copy; 2020 William Carvalho</span></div>
     </footer>
+    
     <!-- Bootstrap core JavaScript -->
     <script src="/js/jquery.min.js"></script>
     <script src="/js/bootstrap.bundle.min.js"></script>
     <script src="/js/table.js"></script>
-    <script src="/js/flight.js"></script>   
-    <script>
-        window.addEventListener("load", function() {
-            document.forms[1].txtBillAmt.value = calculateBill('flights');
-            document.querySelector("#calcBill").addEventListener("click", function() {
-                document.forms[1].txtBillAmt.value = calculateBill('flights');
-            });
-            document.querySelector("#showVeg").addEventListener("click", function() {
-                highlightVegetarian('flights', this.checked);
-            });
-        });
-    </script>
+    <script src="/js/flight.js"></script> 
+
 </body>
 
 </html>
