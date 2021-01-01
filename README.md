@@ -26,6 +26,7 @@ Menu bar, Icons. [online] available at: https://getbootstrap.com/
 
 Mikhail's github
 Structures, Database. [online] availabe at: https://github.com/mikhail-cct/xml-bootcamp
+[Accessed: 28 December 2020].
 
 Visme
 Color scheme. [online] available at: https://visme.co/blog/website-color-schemes/
