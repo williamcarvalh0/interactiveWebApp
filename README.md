@@ -1,7 +1,7 @@
 # interactiveWebApp
 
-name: William Leonardo da Silva Carvalho
-student id: 2020447
+Name: William Leonardo da Silva Carvalho
+Student ID: 2020447
 
 ---
 ** Interactive Web Applications CA2 **
