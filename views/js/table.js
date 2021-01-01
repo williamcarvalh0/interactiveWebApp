@@ -1,3 +1,6 @@
+//THE MAIN STRUCTURE OF THE CODE WAS TAKING FROM https: https://github.com/mikhail-cct/xml-bootcamp
+
+
 function draw_table()
 {
 	$("#results").empty();

@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- //THE MAIN STRUCTURE OF THE CODE WAS TAKING FROM https: https://github.com/mikhail-cct/xml-bootcamp -->
+
 <booking>
   <section name="ENGLAND">
     <entree>
@@ -22,13 +24,6 @@
       <destination>London</destination>
       <price>47.99</price>
     </entree>
-    <entree>
-      <passenger>Carlos</passenger>
-      <departingDate>2021-01-10</departingDate>
-      <class>Economy Class</class>
-      <destination>London</destination>
-      <price>23.99</price>
-    </entree>
   </section>
   <section name="FRANCE">
     <entree>
@@ -51,14 +46,7 @@
       <class>Economy Class</class>
       <destination>Lyon</destination>
       <price>23.99</price>
-    </entree>
-    <entree>
-      <passenger>Jose</passenger>
-      <departingDate>2020-12-31</departingDate>
-      <class>First Class</class>
-      <destination>Lyon</destination>
-      <price>89.99</price>
-    </entree>
+    </entree>   
   </section>
   <section name="SPAIN">
     <entree>
@@ -81,20 +69,6 @@
       <class>Economy Class</class>
       <destination>Malaga</destination>
       <price>23.99</price>
-    </entree>
-    <entree>
-      <passenger>Manuel</passenger>
-      <departingDate>2021-04-23</departingDate>
-      <class>First Class</class>
-      <destination>Barcelona</destination>
-      <price>89.99</price>
-    </entree>
-    <entree>
-      <passenger>Mozao</passenger>
-      <departingDate>2021-01-08</departingDate>
-      <class>First Class</class>
-      <destination>Madrid</destination>
-      <price>89.99</price>
     </entree>
   </section>
 </booking>

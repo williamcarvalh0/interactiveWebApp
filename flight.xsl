@@ -1,4 +1,6 @@
 <?xml version="1.0" ?>
+<!-- //THE MAIN STRUCTURE OF THE CODE WAS TAKING FROM https: https://github.com/mikhail-cct/xml-bootcamp -->
+
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
     <xsl:template match="/">
         <html>
@@ -6,6 +8,7 @@
                 <link href="/css/bootstrap.min.css" rel="stylesheet"></link>
                 <link href="/css/flight.css" rel="stylesheet"></link>
             </head>
+            <body>
             <div class="container">               
                     <div class="card">
                         <div class="card-header">
@@ -49,7 +52,7 @@
                                                     <xsl:value-of select="price"/>
                                                 </td>
                                                 <td class="text-right">
-                                                    <button id="delete" class="btn btn-danger badge-pill" onClick="delete">Delete</button>
+                                                    <button id="delete" class="btn btn-danger badge-pill">Delete</button>                                                    
                                                 </td>                                                           
                                             </tr>
                                         </xsl:for-each>
@@ -59,13 +62,12 @@
                         </div>
                     </div>
                 </div>
-
-                 <!-- Bootstrap core JavaScript -->
-                <!-- Bootstrap core JavaScript -->
-    <script src="views/js/jquery.min.js"></script>
-    <script src="views/js/bootstrap.bundle.min.js"></script>
-    <script src="views/js/table.js"></script>
-    <script src="views/js/PaddysCafe.js"></script>
+                
+     <!-- Bootstrap core JavaScript -->
+                <script src="views/js/table.js"></script>
+            
+            </body>                 
+               
                 
             </html>
     </xsl:template>

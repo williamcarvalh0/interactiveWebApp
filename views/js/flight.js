@@ -1,3 +1,5 @@
+//THE MAIN STRUCTURE OF THE CODE WAS TAKING FROM https: https://github.com/mikhail-cct/xml-bootcamp
+
 // Utility function for getting the parent tag of a given tag
 // but only of a certain type (i.e. a TR, a TABLE, etc.)
 function getParentTag(oNode, sParentType) {
